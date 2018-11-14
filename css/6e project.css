@@ -25,6 +25,13 @@ body {
     background-size: cover;
   }
   
+  .bg {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/14/Rubber_Duck_%288374802487%29.jpg");
+    background-size: contain;
+  }
+
   @keyframes animate {
     0% {
       background-position: 0px;
