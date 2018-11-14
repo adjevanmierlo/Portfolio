@@ -8,7 +8,6 @@ html {
 }
 
 body {
-
   height: calc(100vh - 8em);
   padding: 4em;
   color: rgba(255, 255, 255, .75);
@@ -17,7 +16,6 @@ body {
 }
 
 .line-1 {
-
   top: 50%;
   width: 24em;
   margin: 0;

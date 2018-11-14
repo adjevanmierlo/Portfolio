@@ -12,7 +12,6 @@ body {
     color: rgba(255, 255, 255, .75);
     margin-top: 50px;
     margin-left: 20px;
-
 }
 
 .container1 .box {
@@ -22,8 +21,6 @@ body {
     text-align: center;
     margin: 0 10px;
     color: rgba(255, 255, 255, .75);
-
-
 }
 
 .container1 .box .icon {
@@ -69,7 +66,6 @@ body {
     font-size: 24px;
     color: rgba(255, 255, 255, .75);
 }
-
 
 a,
 a:link {

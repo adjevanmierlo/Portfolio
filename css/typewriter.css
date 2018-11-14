@@ -15,8 +15,7 @@
  }
 
  .line-1 {
-
-   top: 50%;
+ top: 50%;
    width: 24em;
    margin: 0 auto;
    border-right: 2px solid rgba(255, 255, 255, .75);
@@ -29,8 +28,7 @@
    grid-column-end: 5;
    grid-row-start: 4;
    grid-row-end: 5;
-
- }
+}
 
  /* animatie */
  .anim-typewriter {
@@ -43,14 +41,13 @@
    from {
      width: 0;
    }
-
-   /* de afstand van de cursor */
+/* de afstand van de cursor */
    to {
      width: 28em;
    }
- }
 
- @keyframes blinkTextCursor {
+  }
+@keyframes blinkTextCursor {
    from {
      border-right-color: rgba(255, 255, 255, .75);
    }

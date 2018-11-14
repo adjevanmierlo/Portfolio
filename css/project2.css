@@ -12,7 +12,6 @@
     margin-right: 50px;
 }
 
-
 .sidenav {
     height: 100%;
     position: fixed;
@@ -35,7 +34,6 @@
     color: white;
     display: block;
     transition: 0.3s;
-
 }
 
 .sidenav a:hover {
@@ -49,8 +47,6 @@
     font-size: 36px;
     margin-left: 50px;
 }
-
-
 
 body {
     padding: 0%;
@@ -66,18 +62,11 @@ body {
     grid-template-rows: 25% 15% 5% 5% 15% 15% 5% 5% 5% 5%
 }
 
-
-
-
-
-
 a,
 a:link {
     color: rgba(255, 255, 255, .75);
     text-decoration: none;
 }
-
-
 
 .fa-facebook {
     background: #333;
@@ -92,7 +81,6 @@ a:link {
     border-radius: 50%;
 }
 
-
 .fa-linkedin {
     background: #333;
     color: white;
@@ -106,8 +94,6 @@ a:link {
     border-radius: 50%;
 }
 
-
-
 .fa-instagram {
     background: #333;
     color: white;
@@ -119,5 +105,4 @@ a:link {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-
 }
