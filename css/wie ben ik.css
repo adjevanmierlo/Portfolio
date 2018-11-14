@@ -1,18 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
-
-.text{
-    grid-column-start: 5;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 9;
+.text {
+   grid-column-start: 5;
+   grid-column-end: 4;
+   grid-row-start: 2;
+   grid-row-end: 9;
    font-size: 120%;
-   font-family: 'Anonymous Pro', monospace;  
- }
+   font-family: 'Anonymous Pro';
+}
 
- .image{
-    grid-column-start: 5;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 9;
- }
+.image {
+   grid-column-start: 5;
+   grid-column-end: 4;
+   grid-row-start: 2;
+   grid-row-end: 9;
+}

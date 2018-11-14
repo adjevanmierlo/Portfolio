@@ -1,24 +1,23 @@
-
-  body{
+body {
     padding: 0%;
-    margin:  0%;
+    margin: 0%;
     background-image: url(https://images4.alphacoders.com/594/thumb-1920-594600.jpg);
 }
 
-.container{
+.container {
     width: 100vw;
-    height:100vh;
+    height: 100vh;
     display: grid;
-    grid-template-columns: 2% 3% 5% 70%  15% 5%;
-    grid-template-rows:    25% 15% 5% 5% 15% 15% 5% 5%  5% 5% 
+    grid-template-columns: 2% 3% 5% 70% 15% 5%;
+    grid-template-rows: 25% 15% 5% 5% 15% 15% 5% 5% 5% 5%
 }
 
 
 
 
 
-
-a, a:link {
-    color: rgba(255,255,255,.75);
+a,
+a:link {
+    color: rgba(255, 255, 255, .75);
     text-decoration: none;
-    }
+}
