@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+.main {
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, .75);
+    margin-right: 50px;
+}
+
+
+.sidenav {
+    height: 100%;
+    position: fixed;
+    width: 0;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    opacity: 0.5;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+
+body {
+    padding: 0%;
+    margin: 0%;
+    background-image: url(https://images4.alphacoders.com/594/thumb-1920-594600.jpg);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2% 3% 5% 70% 15% 5%;
+    grid-template-rows: 25% 15% 5% 5% 15% 15% 5% 5% 5% 5%
+}
+
+
+
+
+
+
+a,
+a:link {
+    color: rgba(255, 255, 255, .75);
+    text-decoration: none;
+}
+
+
+
+.fa-facebook {
+    background: #333;
+    color: white;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 7;
+    grid-row-end: 7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+.fa-linkedin {
+    background: #333;
+    color: white;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 8;
+    grid-row-end: 8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+
+.fa-instagram {
+    background: #333;
+    color: white;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 9;
+    grid-row-end: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+}

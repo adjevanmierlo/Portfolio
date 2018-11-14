@@ -1,0 +1,63 @@
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+html {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+body {
+
+  height: calc(100vh - 8em);
+  padding: 4em;
+  color: rgba(255, 255, 255, .75);
+  font-family: 'Anonymous Pro', monospace;
+  background-image: url(https://images4.alphacoders.com/594/thumb-1920-594600.jpg);
+}
+
+.line-1 {
+
+  top: 50%;
+  width: 24em;
+  margin: 0;
+  padding: 0;
+  border-right: 2px solid rgba(255, 255, 255, .75);
+  font-size: 140%;
+  white-space: nowrap;
+  /* de grid is enkel voor mij deze is uiteraard nvt bij jou/jullie*/
+  overflow: hidden;
+  transform: translateY(-50%);
+  /* grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4; */
+}
+
+/* Animatie */
+.anim-typewriter {
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+    /* als je de snelheis van de cursor wilt aanpassen kan dit middels de blinkTextCursor te veranderen*/
+    blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+
+  /* als je de to width veranderd bepaal je de afstand van de cursor*/
+  to {
+    width: 8em;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, .75);
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+}

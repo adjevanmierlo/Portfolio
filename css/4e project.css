@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+
+body {
+    background-image: url(https://images4.alphacoders.com/594/thumb-1920-594600.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
+    font-family: 'Anonymous Pro';
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: rgba(255, 255, 255, .75);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Anonymous Pro';
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: rgba(255, 255, 255, .75);
+    color: black;
+    font-family: 'Anonymous Pro';
+}
+
+/* Main content */
+.main {
+    margin-top: 30px;
+    /* Add a top margin to avoid content overlay */
+    font-family: 'Anonymous Pro';
+}
