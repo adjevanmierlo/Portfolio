@@ -4,25 +4,30 @@ iframe {
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
-.piet {
+.top-right {
   margin-left: 1000px;
 }
 
-.jan {
+.top-middle {
   margin-left: 400px;
 }
 
-.gerrit {
+.left-bottom {
   margin-top: 150px;
   margin-left: 50px;
 }
 
-.kees {
+.middle-bottom {
   margin-top: 150px;
   margin-left: 560px;
 }
 
-.henk {
+.right-bottom {
   margin-top: 345px;
   margin-left: -250px;
+}
+
+.top-left{
+
+  
 }
