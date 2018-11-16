@@ -24,6 +24,7 @@ body {
    grid-row-start: 2;
    grid-row-end: 1;
    font-size: 120%;
+   padding: 25px;
    font-family: 'Anonymous Pro';
    color: rgba(255, 255, 255, .75);
    border-bottom:  thick solid rgba(255, 255, 255, .75);
@@ -35,14 +36,14 @@ body {
    grid-column-end: 4;
    grid-row-start: 2;
    grid-row-end: 1;
+   margin-top: -20px;
    font-family: 'Anonymous Pro';
    color: rgba(255, 255, 255, .75);
-   margin-top: -10px;
-   border-bottom: thin solid rgba(255, 255, 255, .75)
+   margin-left: 25px;
 }
 
 .photo {
    background-image: url(..\img\adje.png);
    margin-left: 875px;
-      margin-top: 100px;
+      margin-top: 115px;
 }
