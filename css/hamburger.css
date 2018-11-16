@@ -17,6 +17,10 @@ body {
     align-self: center;
     justify-content: center;
     color: rgba(255, 255, 255, .75);
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+
+
 }
 
 .sidenav {
@@ -55,4 +59,3 @@ body {
     font-size: 36px;
     margin-left: 50px;
 }
-
