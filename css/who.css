@@ -27,7 +27,7 @@ body {
    padding: 25px;
    font-family: 'Anonymous Pro';
    color: rgba(255, 255, 255, .75);
-   border-bottom:  thick solid rgba(255, 255, 255, .75);
+   border-bottom: thick solid rgba(255, 255, 255, .75);
    border-top: thin solid rgba(255, 255, 255, .75);
 }
 
@@ -45,5 +45,5 @@ body {
 .photo {
    background-image: url(..\img\adje.png);
    margin-left: 875px;
-      margin-top: 115px;
+   margin-top: 115px;
 }
